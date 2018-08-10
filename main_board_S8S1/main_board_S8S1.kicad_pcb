@@ -196,11 +196,11 @@
 
   (module KCL:SO-08 (layer F.Cu) (tedit 5AA57379) (tstamp 5B6D8846)
     (at 148.59 104.14)
-    (path /5AD5540A)
+    (path /5B6FE9DE)
     (fp_text reference DD1 (at 0 -3.429) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value IC_MCU_ATtiny25-20SUR (at 0 -4.699) (layer F.Fab) hide
+    (fp_text value IC_MCU_AVR_TINY_25-45-85_S8S1 (at 0 -4.699) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -3.81 -2.54) (end 3.81 -2.54) (layer F.SilkS) (width 0.2))
@@ -1797,7 +1797,7 @@
   (gr_line (start 205.74 147.32) (end 91.44 147.32) (angle 90) (layer Edge.Cuts) (width 0.4))
   (gr_line (start 205.74 60.96) (end 205.74 147.32) (angle 90) (layer Edge.Cuts) (width 0.4))
   (gr_line (start 91.44 60.96) (end 205.74 60.96) (angle 90) (layer Edge.Cuts) (width 0.4))
-  (gr_text ATtiny (at 148.59 97.79) (layer F.SilkS) (tstamp 5B6D9067)
+  (gr_text ATtiny25/45/85 (at 148.59 97.79) (layer F.SilkS) (tstamp 5B6D9067)
     (effects (font (size 3 3) (thickness 0.6)))
   )
   (gr_text PROG (at 113.03 123.19) (layer F.SilkS)
