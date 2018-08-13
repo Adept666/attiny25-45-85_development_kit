@@ -5,11 +5,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Отладочный комплект для ATtiny25-20SUR. Основная плата"
-Date "2018-04-19"
-Rev "1"
-Comp "Иванов И.В."
-Comment1 ""
+Title "main_board_S8S1"
+Date "2018-08-13"
+Rev "2"
+Comp "Igor Vladimirovich Ivanov"
+Comment1 "https://github.com/Adept666"
 Comment2 ""
 Comment3 ""
 Comment4 ""
