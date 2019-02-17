@@ -1,7 +1,7 @@
 (kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
 
   (general
-    (thickness 1.6)
+    (thickness 1.5)
     (drawings 48)
     (tracks 374)
     (zones 0)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title main_board_S8S1)
-    (date 2018-11-01)
+    (date 2019-02-17)
     (rev 2)
     (company "Igor Vladimirovich Ivanov")
     (comment 1 https://github.com/Adept666)
