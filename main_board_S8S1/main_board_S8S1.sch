@@ -1,11 +1,12 @@
 EESchema Schematic File Version 4
+LIBS:main_board_S8S1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "main_board_S8S1"
-Date "2018-11-01"
+Date "2019-02-17"
 Rev "2"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
