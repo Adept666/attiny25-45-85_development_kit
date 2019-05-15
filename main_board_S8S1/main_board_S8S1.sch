@@ -10,7 +10,7 @@ Date "2019-05-15"
 Rev "2"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
-Comment2 ""
+Comment2 "This project is licensed under GNU General Public License v3.0 or later"
 Comment3 ""
 Comment4 ""
 $EndDescr
