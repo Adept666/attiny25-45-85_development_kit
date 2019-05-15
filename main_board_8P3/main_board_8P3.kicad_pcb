@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.5)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title main_board_8P3)
-    (date 2019-02-18)
+    (date 2019-05-15)
     (rev 1)
     (company "Igor Vladimirovich Ivanov")
     (comment 1 https://github.com/Adept666)
@@ -62,6 +62,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -198,13 +199,13 @@
     (add_net V)
   )
 
-  (module KCL:P-DIP-08 (layer F.Cu) (tedit 5BD7A317) (tstamp 5C6A435A)
+  (module KCL:P-DIP-08 (layer F.Cu) (tedit 5BD7A317) (tstamp 5CDC02B1)
     (at 148.59 104.14)
     (path /5B6FE9DE)
-    (fp_text reference DD1 (at 0 -5.715) (layer F.SilkS)
+    (fp_text reference D1 (at 0 -5.715) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value IC_MCU_AVR_TINY_25-45-85_8P3 (at 0 -7.62) (layer F.Fab) hide
+    (fp_text value ATtiny25-20PU (at 0 -6.985) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -4.953 -4.953) (end -4.953 4.953) (layer F.SilkS) (width 0.2))
@@ -1807,7 +1808,7 @@
       (net 2 "Net-(C2-Pad1)"))
   )
 
-  (gr_text 8P3 (at 158.75 109.22) (layer F.SilkS) (tstamp 5C6A4B5A)
+  (gr_text 8P3 (at 158.75 104.14) (layer F.SilkS) (tstamp 5CDC0C4D)
     (effects (font (size 3 3) (thickness 0.6)))
   )
   (gr_line (start 97.79 73.66) (end 100.33 73.66) (angle 90) (layer F.SilkS) (width 0.4))
@@ -1853,7 +1854,7 @@
   (gr_line (start 205.74 147.32) (end 91.44 147.32) (angle 90) (layer Edge.Cuts) (width 0.4))
   (gr_line (start 205.74 60.96) (end 205.74 147.32) (angle 90) (layer Edge.Cuts) (width 0.4))
   (gr_line (start 91.44 60.96) (end 205.74 60.96) (angle 90) (layer Edge.Cuts) (width 0.4))
-  (gr_text ATtiny25/45/85 (at 172.72 104.14) (layer F.SilkS) (tstamp 5B6D9067)
+  (gr_text ATtiny25/45/85 (at 124.46 104.14) (layer F.SilkS) (tstamp 5CDC0C47)
     (effects (font (size 3 3) (thickness 0.6)))
   )
   (gr_text PROG (at 113.03 123.19) (layer F.SilkS)
@@ -1993,7 +1994,7 @@
   (segment (start 147.32 100.33) (end 149.86 97.79) (width 0.6) (layer B.Cu) (net 5))
   (segment (start 151.13 142.24) (end 175.26 118.11) (width 0.6) (layer F.Cu) (net 6) (tstamp 5B43C629))
   (segment (start 175.26 92.075) (end 175.26 74.93) (width 0.6) (layer B.Cu) (net 6))
-  (via (at 175.26 92.075) (size 2) (drill 0.5) (layers F.Cu B.Cu) (net 6) (tstamp 5C6A49C3) (status 1000000))
+  (via (at 175.26 92.075) (size 2) (drill 0.5) (layers F.Cu B.Cu) (net 6) (tstamp 5C6A49C3))
   (segment (start 175.26 98.425) (end 175.26 92.075) (width 0.6) (layer B.Cu) (net 6) (tstamp 5B43B05A))
   (via (at 175.26 98.425) (size 2) (drill 0.5) (layers F.Cu B.Cu) (net 6))
   (segment (start 105.41 125.73) (end 110.49 125.73) (width 0.6) (layer B.Cu) (net 6))

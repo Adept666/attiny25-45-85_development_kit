@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.5)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title main_board_8S2)
-    (date 2019-02-18)
+    (date 2019-05-15)
     (rev 1)
     (company "Igor Vladimirovich Ivanov")
     (comment 1 https://github.com/Adept666)
@@ -62,6 +62,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -198,14 +199,14 @@
     (add_net V)
   )
 
-  (module KCL:P-SO-08A (layer F.Cu) (tedit 5BD7A3B0) (tstamp 5C6A59F9)
+  (module KCL:P-SO-08A (layer F.Cu) (tedit 5BD7A3B0) (tstamp 5CDBF077)
     (at 148.59 104.14)
     (path /5B6FE9DE)
     (attr smd)
-    (fp_text reference DD1 (at 0 -3.429) (layer F.SilkS)
+    (fp_text reference D1 (at 0 -3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value IC_MCU_AVR_TINY_25-45-85_8S2 (at 0 -4.699) (layer F.Fab) hide
+    (fp_text value ATtiny25-20SU (at 10.16 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -4.318 -2.667) (end 4.318 -2.667) (layer F.CrtYd) (width 0.1))
@@ -272,7 +273,7 @@
       (net 3 V))
   )
 
-  (module KCL:L-SDR0805 (layer F.Cu) (tedit 5BD7A25F) (tstamp 5AD7C29C)
+  (module KCL:L-SDR0805 (layer F.Cu) (tedit 5BD7A25F) (tstamp 5CDBF4F1)
     (at 156.21 90.17 270)
     (path /5AD56887)
     (attr smd)
@@ -996,7 +997,7 @@
       (net 3 V))
   )
 
-  (module KCL:R-SMD-0805 (layer F.Cu) (tedit 5BD86A4C) (tstamp 5AD7C2B0)
+  (module KCL:R-SMD-0805 (layer F.Cu) (tedit 5BD86A4C) (tstamp 5CDBF453)
     (at 185.42 125.73 180)
     (path /5AD85781)
     (attr smd)
@@ -1854,7 +1855,7 @@
   (gr_line (start 205.74 147.32) (end 91.44 147.32) (angle 90) (layer Edge.Cuts) (width 0.4))
   (gr_line (start 205.74 60.96) (end 205.74 147.32) (angle 90) (layer Edge.Cuts) (width 0.4))
   (gr_line (start 91.44 60.96) (end 205.74 60.96) (angle 90) (layer Edge.Cuts) (width 0.4))
-  (gr_text ATtiny25/45/85 (at 148.59 97.79) (layer F.SilkS) (tstamp 5B6D9067)
+  (gr_text ATtiny25/45/85 (at 148.59 97.155) (layer F.SilkS) (tstamp 5CDC0EC7)
     (effects (font (size 3 3) (thickness 0.6)))
   )
   (gr_text PROG (at 113.03 123.19) (layer F.SilkS)

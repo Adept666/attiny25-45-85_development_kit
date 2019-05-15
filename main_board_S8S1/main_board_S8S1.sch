@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "main_board_S8S1"
-Date "2019-02-17"
+Date "2019-05-15"
 Rev "2"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -725,8 +725,6 @@ Text Label 6200 1900 2    70   ~ 0
 PB0
 Text Label 6200 3900 2    70   ~ 0
 PB1
-Wire Bus Line
-	3750 750  13250 750 
 Wire Wire Line
 	13750 1650 13750 1900
 Wire Wire Line
@@ -792,9 +790,9 @@ Wire Wire Line
 Wire Bus Line
 	8750 750  8750 7150
 Wire Bus Line
-	6500 2400 6500 750 
+	6750 2400 6750 750 
 Wire Wire Line
-	6750 2900 6750 2650
+	7000 2900 7000 2650
 Text Label 8700 2650 2    70   ~ 0
 PB0
 Wire Wire Line
@@ -806,22 +804,22 @@ Wire Wire Line
 Wire Wire Line
 	8750 2400 8500 2400
 Wire Wire Line
-	6500 1900 6750 1900
+	6750 1900 7000 1900
 Wire Wire Line
-	6500 2150 6750 2150
+	6750 2150 7000 2150
 Wire Wire Line
-	6500 2400 6750 2400
+	6750 2400 7000 2400
 Text Label 8700 2400 2    70   ~ 0
 PB1
 Text Label 8700 2150 2    70   ~ 0
 PB2
 Text Label 8700 1900 2    70   ~ 0
 VCC
-Text Label 6550 2150 0    70   ~ 0
+Text Label 6800 2150 0    70   ~ 0
 PB3
-Text Label 6550 2400 0    70   ~ 0
+Text Label 6800 2400 0    70   ~ 0
 PB4
-Text Label 6550 1900 0    70   ~ 0
+Text Label 6800 1900 0    70   ~ 0
 PB5
 Wire Wire Line
 	7750 4150 8750 4150
@@ -1174,17 +1172,17 @@ Wire Wire Line
 Wire Wire Line
 	7500 7150 8000 7150
 $Comp
-L KCL:IC_MCU_AVR_TINY_25-45-85_S8S1 DD1
+L ICL_MICROCHIP:ATtiny25-20SSU D1
 U 1 1 5B6FE9DE
-P 7625 1900
-F 0 "DD1" H 7625 2500 100 0000 C CNN
-F 1 "IC_MCU_AVR_TINY_25-45-85_S8S1" H 7625 1900 100 0001 C CNN
-F 2 "KCL:P-SO-08" H 7625 1900 60  0001 C CNN
-F 3 "" H 7625 1900 60  0001 C CNN
-F 4 "ATtiny25/45/85 S8S1" H 7625 2350 100 0000 C CNN "Title"
-F 5 "ATtiny25/45/85" H 7625 2200 60  0000 C CNN "Product"
-F 6 "Microchip" H 7625 2100 60  0000 C CNN "Manufacturer"
-	1    7625 1900
+P 7750 1900
+F 0 "D1" H 7750 2500 100 0000 C CNN
+F 1 "ATtiny25-20SSU" H 7750 1900 100 0001 C CNN
+F 2 "KCL:P-SO-08" H 7750 1900 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" H 7750 1900 60  0001 C CNN
+F 4 "ATtiny25/45/85 S8S1" H 7750 2350 100 0000 C CNN "Title"
+F 5 "ATtiny25/45/85" H 7750 2200 60  0000 C CNN "Product"
+F 6 "Microchip" H 7750 2100 60  0000 C CNN "Manufacturer"
+	1    7750 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1335,13 +1333,13 @@ Wire Wire Line
 $Comp
 L KCL:POWER_COM #PWR0112
 U 1 1 5C7FE3E0
-P 6750 2900
-F 0 "#PWR0112" H 6750 2900 100 0001 C CNN
-F 1 "POWER_COM" H 6750 2900 100 0001 C CNN
-F 2 "" H 6750 2900 60  0001 C CNN
-F 3 "" H 6750 2900 60  0001 C CNN
-F 4 "COM" H 6750 2900 100 0001 C CNN "Label"
-	1    6750 2900
+P 7000 2900
+F 0 "#PWR0112" H 7000 2900 100 0001 C CNN
+F 1 "POWER_COM" H 7000 2900 100 0001 C CNN
+F 2 "" H 7000 2900 60  0001 C CNN
+F 3 "" H 7000 2900 60  0001 C CNN
+F 4 "COM" H 7000 2900 100 0001 C CNN "Label"
+	1    7000 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1562,4 +1560,6 @@ F 4 "V" H 3750 5900 100 0001 C CNN "Label"
 	1    3750 5900
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3750 750  13250 750 
 $EndSCHEMATC
