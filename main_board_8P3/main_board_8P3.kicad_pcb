@@ -3,7 +3,7 @@
   (general
     (thickness 1.5)
     (drawings 48)
-    (tracks 378)
+    (tracks 376)
     (zones 0)
     (modules 47)
     (nets 48)
@@ -205,7 +205,7 @@
     (fp_text reference D1 (at 0 -5.715) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value ATtiny25-20PU (at 0 -6.985) (layer F.Fab) hide
+    (fp_text value ATtiny25-20PU (at 0 -7.62) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -4.953 -4.953) (end -4.953 4.953) (layer F.SilkS) (width 0.2))
@@ -655,7 +655,7 @@
       (net 21 "Net-(HL7-PadA)"))
   )
 
-  (module KCL:P-SOD-323 (layer F.Cu) (tedit 5BD7A4C9) (tstamp 5AD7C3E9)
+  (module KCL:P-SOD-323 (layer F.Cu) (tedit 5BD7A4C9) (tstamp 5CDBD545)
     (at 185.42 130.81)
     (path /5AD5564D)
     (attr smd)
@@ -1965,10 +1965,9 @@
   (segment (start 147.955 93.98) (end 143.19 93.98) (width 0.6) (layer F.Cu) (net 4) (tstamp 5B43872D))
   (segment (start 149.225 95.25) (end 147.955 93.98) (width 0.6) (layer F.Cu) (net 4) (tstamp 5B438725))
   (segment (start 149.225 95.25) (end 156.21 95.25) (width 0.6) (layer F.Cu) (net 4))
-  (segment (start 156.21 95.25) (end 156.21 92.82) (width 0.6) (layer F.Cu) (net 4))
   (segment (start 152.4 100.33) (end 154.94 100.33) (width 0.6) (layer F.Cu) (net 4))
   (segment (start 154.94 100.33) (end 156.21 99.06) (width 0.6) (layer F.Cu) (net 4))
-  (segment (start 156.21 99.06) (end 156.21 95.25) (width 0.6) (layer F.Cu) (net 4))
+  (segment (start 156.21 99.06) (end 156.21 92.82) (width 0.6) (layer F.Cu) (net 4))
   (via (at 180.34 125.73) (size 2) (drill 0.5) (layers F.Cu B.Cu) (net 5))
   (segment (start 132.08 91.12) (end 132.08 93.98) (width 0.6) (layer F.Cu) (net 5))
   (segment (start 185.42 140.97) (end 180.34 135.89) (width 0.6) (layer B.Cu) (net 5) (tstamp 5B43A739))
@@ -2261,7 +2260,6 @@
   (segment (start 103.505 130.81) (end 113.03 130.81) (width 1) (layer B.Cu) (net 47))
   (segment (start 113.03 130.81) (end 135.89 107.95) (width 1) (layer B.Cu) (net 47))
   (segment (start 132.08 72.39) (end 135.89 72.39) (width 1) (layer B.Cu) (net 47))
-  (segment (start 143.18 107.95) (end 135.89 107.95) (width 0.6) (layer F.Cu) (net 47))
-  (segment (start 144.78 107.95) (end 143.18 107.95) (width 0.6) (layer F.Cu) (net 47))
+  (segment (start 144.78 107.95) (end 135.89 107.95) (width 0.6) (layer F.Cu) (net 47))
 
 )
