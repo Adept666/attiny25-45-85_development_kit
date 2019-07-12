@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
 LIBS:main_board_8S2-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "main_board_8S2"
-Date "2019-05-15"
+Date "2019-07-12"
 Rev "1"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -209,19 +209,6 @@ F 5 "KP-2012SGC" H 11750 2450 60  0000 C CNN "Product"
 F 6 "Kingbright" H 11750 2350 60  0000 C CNN "Manufacturer"
 	1    11750 1900
 	-1   0    0    -1  
-$EndComp
-$Comp
-L KCL:HOLE XS3
-U 1 1 5AD59AA0
-P 14500 6400
-F 0 "XS3" H 14500 6700 100 0000 C CNN
-F 1 "HOLE" H 14500 6400 100 0001 C CNN
-F 2 "KCL:STA-DA5" H 14500 6400 60  0001 C CNN
-F 3 "" H 14500 6400 60  0001 C CNN
-F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 6600 60  0000 C CNN "Нижняя стойка"
-F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 6500 60  0000 C CNN "Верхняя стойка"
-	1    14500 6400
-	1    0    0    -1  
 $EndComp
 $Comp
 L KCL:DIODE_LIGHT-EMITTING_LEFT HL4
@@ -445,45 +432,6 @@ F 4 "100 нФ" H 8000 4700 60  0000 L CNN "Capacitance"
 F 5 "10%" H 8000 4600 60  0000 L CNN "Tolerance"
 F 6 "50 В" H 8000 4500 60  0000 L CNN "Voltage"
 	1    7750 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L KCL:HOLE XS5
-U 1 1 5AD926EE
-P 14500 8400
-F 0 "XS5" H 14500 8700 100 0000 C CNN
-F 1 "HOLE" H 14500 8400 100 0001 C CNN
-F 2 "KCL:STA-DA5" H 14500 8400 60  0001 C CNN
-F 3 "" H 14500 8400 60  0001 C CNN
-F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 8600 60  0000 C CNN "Нижняя стойка"
-F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 8500 60  0000 C CNN "Верхняя стойка"
-	1    14500 8400
-	1    0    0    -1  
-$EndComp
-$Comp
-L KCL:HOLE XS4
-U 1 1 5AD92817
-P 14500 7400
-F 0 "XS4" H 14500 7700 100 0000 C CNN
-F 1 "HOLE" H 14500 7400 100 0001 C CNN
-F 2 "KCL:STA-DA5" H 14500 7400 60  0001 C CNN
-F 3 "" H 14500 7400 60  0001 C CNN
-F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 7600 60  0000 C CNN "Нижняя стойка"
-F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 7500 60  0000 C CNN "Верхняя стойка"
-	1    14500 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L KCL:HOLE XS6
-U 1 1 5AD928D3
-P 14500 9400
-F 0 "XS6" H 14500 9700 100 0000 C CNN
-F 1 "HOLE" H 14500 9400 100 0001 C CNN
-F 2 "KCL:STA-DA5" H 14500 9400 60  0001 C CNN
-F 3 "" H 14500 9400 60  0001 C CNN
-F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 9600 60  0000 C CNN "Нижняя стойка"
-F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 9500 60  0000 C CNN "Верхняя стойка"
-	1    14500 9400
 	1    0    0    -1  
 $EndComp
 Text Label 9050 8400 0    70   ~ 0
@@ -1562,4 +1510,56 @@ F 4 "V" H 3750 5900 100 0001 C CNN "Label"
 $EndComp
 Wire Bus Line
 	3750 750  13250 750 
+$Comp
+L KCL:VIRTUAL_MOUNTING-HOLE VMH1
+U 1 1 5D39703C
+P 14500 6400
+F 0 "VMH1" H 14500 6800 100 0000 C CNN
+F 1 "VIRTUAL_MOUNTING-HOLE" H 14500 6400 100 0001 C CNN
+F 2 "KCL:STA-DA5" H 14500 6400 60  0001 C CNN
+F 3 "" H 14500 6400 60  0001 C CNN
+F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 6700 60  0000 C CNN "Нижняя стойка"
+F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 6600 60  0000 C CNN "Верхняя стойка"
+	1    14500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KCL:VIRTUAL_MOUNTING-HOLE VMH2
+U 1 1 5D39F356
+P 14500 7400
+F 0 "VMH2" H 14500 7800 100 0000 C CNN
+F 1 "VIRTUAL_MOUNTING-HOLE" H 14500 7400 100 0001 C CNN
+F 2 "KCL:STA-DA5" H 14500 7400 60  0001 C CNN
+F 3 "" H 14500 7400 60  0001 C CNN
+F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 7700 60  0000 C CNN "Нижняя стойка"
+F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 7600 60  0000 C CNN "Верхняя стойка"
+	1    14500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KCL:VIRTUAL_MOUNTING-HOLE VMH4
+U 1 1 5D3AA285
+P 14500 8400
+F 0 "VMH4" H 14500 8800 100 0000 C CNN
+F 1 "VIRTUAL_MOUNTING-HOLE" H 14500 8400 100 0001 C CNN
+F 2 "KCL:STA-DA5" H 14500 8400 60  0001 C CNN
+F 3 "" H 14500 8400 60  0001 C CNN
+F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 8700 60  0000 C CNN "Нижняя стойка"
+F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 8600 60  0000 C CNN "Верхняя стойка"
+	1    14500 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KCL:VIRTUAL_MOUNTING-HOLE VMH3
+U 1 1 5D3B4ED7
+P 14500 9400
+F 0 "VMH3" H 14500 9800 100 0000 C CNN
+F 1 "VIRTUAL_MOUNTING-HOLE" H 14500 9400 100 0001 C CNN
+F 2 "KCL:STA-DA5" H 14500 9400 60  0001 C CNN
+F 3 "" H 14500 9400 60  0001 C CNN
+F 4 "Нижняя стойка: DI5M3x08 (Vogt)" H 14500 9700 60  0000 C CNN "Нижняя стойка"
+F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 9600 60  0000 C CNN "Верхняя стойка"
+	1    14500 9400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
