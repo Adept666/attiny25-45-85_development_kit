@@ -655,8 +655,6 @@ Wire Wire Line
 	5600 3900 6250 3900
 Wire Wire Line
 	5600 1900 6250 1900
-Wire Bus Line
-	6250 750  6250 6950
 Wire Wire Line
 	5600 2400 6250 2400
 Wire Wire Line
@@ -1509,7 +1507,7 @@ F 4 "V" H 3750 5900 100 0001 C CNN "Label"
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	3750 750  13250 750 
+	3750 750  6250 750 
 $Comp
 L KCL:VIRTUAL_MOUNTING-HOLE VMH1
 U 1 1 5D3EC07C
@@ -1562,4 +1560,18 @@ F 5 "Верхняя стойка: DA5M3x20 (Vogt)" H 14500 9600 60  0000 C CNN "
 	1    14500 9400
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6250 750  6250 6950
+Connection ~ 6250 750 
+Wire Bus Line
+	6250 750  6750 750 
+Connection ~ 6750 750 
+Wire Bus Line
+	6750 750  8750 750 
+Connection ~ 8750 750 
+Wire Bus Line
+	8750 750  9000 750 
+Connection ~ 9000 750 
+Wire Bus Line
+	9000 750  13250 750 
 $EndSCHEMATC
