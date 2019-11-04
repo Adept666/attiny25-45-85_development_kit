@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "main_board_8P3"
-Date "2019-09-04"
+Date "2019-11-04"
 Rev "1"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -43,7 +43,7 @@ F 6 "Switronic" V 6550 7600 60  0000 R CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW:SWITCH_GENERAL_01P_01T_NO_05U SA3
+L KCL:SWITCH_GENERAL_01P_01T_NO_05U SA3
 U 1 1 5AD54C53
 P 9500 2400
 F 0 "SA3" H 9500 3100 100 0000 C CNN
