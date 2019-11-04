@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "main_board_S8S1"
-Date "2019-09-04"
+Date "2019-11-04"
 Rev "2"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -161,7 +161,7 @@ U 1 1 5AD56887
 P 7250 4150
 F 0 "L1" H 7250 4800 100 0000 C CNN
 F 1 "INDUCTOR_FMC" H 7250 4150 100 0001 C CNN
-F 2 "KCL:L-SDR0805" H 7250 4150 60  0001 C CNN
+F 2 "KCL:I-SDR0805" H 7250 4150 60  0001 C CNN
 F 3 "" H 7250 4150 60  0001 C CNN
 F 4 "47 мкГн" H 7250 4700 60  0000 C CNN "Inductance"
 F 5 "SDR0805-470KL" H 7250 4600 60  0000 C CNN "Product"
