@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:main_board_8S2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "main_board_8S2"
-Date "2019-11-04"
+Date "2020-03-05"
 Rev "1"
-Comp "Igor Vladimirovich Ivanov"
+Comp "Igor Ivanov"
 Comment1 "https://github.com/Adept666"
 Comment2 "This project is licensed under GNU General Public License v3.0 or later"
 Comment3 ""
@@ -971,16 +970,16 @@ F 6 "Degson" H 3750 10950 60  0000 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L main_board_8S2:CONNECTOR_M_BARREL_20_POWER XP2
+L KCL:CONNECTOR_M_BARREL_SW XP2
 U 1 1 5AD7D885
 P 3000 8750
-F 0 "XP2" H 3750 9600 100 0000 C CNN
-F 1 "CONNECTOR_M_BARREL_20_POWER" H 3000 8750 100 0001 C CNN
+F 0 "XP2" H 3250 9350 100 0000 C CNN
+F 1 "CONNECTOR_M_BARREL_SW" H 3000 8750 100 0001 C CNN
 F 2 "KCL:CON-PJ-002B" H 3000 8750 60  0001 C CNN
 F 3 "" H 3000 8750 60  0001 C CNN
-F 4 "POWER" H 3750 9450 100 0000 C CNN "Title"
-F 5 "PJ-002B" H 3750 9300 60  0000 C CNN "Product"
-F 6 "CUI" H 3750 9200 60  0000 C CNN "Manufacturer"
+F 4 "POWER" H 3250 9200 100 0000 C CNN "Title"
+F 5 "PJ-002B" H 3250 9050 60  0000 C CNN "Product"
+F 6 "CUI" H 3250 8950 60  0000 C CNN "Manufacturer"
 	1    3000 8750
 	-1   0    0    -1  
 $EndComp
