@@ -6,7 +6,7 @@ ATtiny25/45/85 Development Kit
 
 ## Author
 
-Igor Vladimirovich Ivanov
+Igor Ivanov
 
 ## License
 
