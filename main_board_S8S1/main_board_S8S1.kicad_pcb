@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu19.10.1)
 
   (general
     (thickness 1.5)
@@ -12,9 +12,9 @@
   (page A4)
   (title_block
     (title main_board_S8S1)
-    (date 2019-11-04)
+    (date 2020-03-05)
     (rev 2)
-    (company "Igor Vladimirovich Ivanov")
+    (company "Igor Ivanov")
     (comment 1 https://github.com/Adept666)
     (comment 2 "This project is licensed under GNU General Public License v3.0 or later")
   )
@@ -178,13 +178,13 @@
     (add_net V)
   )
 
-  (module KCL:CON-PJ-002B (layer F.Cu) (tedit 5DC02D11) (tstamp 5BDA1B8A)
+  (module KCL:CON-PJ-002B (layer F.Cu) (tedit 5E58F74E) (tstamp 5BDA1B8A)
     (at 194.945 82.55 90)
     (path /5AD7D885)
     (fp_text reference XP2 (at 5.715 3.81 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value CONNECTOR_M_BARREL_20_POWER (at 0 24.765 180) (layer F.Fab) hide
+    (fp_text value CONNECTOR_M_BARREL_SW (at 0 21.59 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -4.5 -3.7) (end 4.5 -3.7) (layer F.Fab) (width 0.2))
@@ -200,11 +200,9 @@
     (fp_line (start -4.5 -3.7) (end -4.5 3) (layer F.SilkS) (width 0.2))
     (fp_line (start 4.5 1.651) (end 4.5 3) (layer F.SilkS) (width 0.2))
     (fp_line (start 4.5 -3.7) (end 4.5 -1.651) (layer F.SilkS) (width 0.2))
-    (pad 2 thru_hole rect (at 0 3 90) (size 5 3) (drill oval 3 0.7) (layers B.Cu B.Mask)
-      (net 35 "Net-(SA2-PadCOM1)"))
-    (pad 3 thru_hole rect (at 4.7 0 90) (size 3 5) (drill oval 0.7 3) (layers B.Cu B.Mask))
-    (pad 1 thru_hole rect (at 0 -3 90) (size 5 3) (drill oval 3.5 0.7) (layers B.Cu B.Mask)
-      (net 36 "Net-(SA2-PadCOM2)"))
+    (pad S thru_hole rect (at 0 3 90) (size 5 3) (drill oval 3 0.7) (layers B.Cu B.Mask))
+    (pad SN thru_hole rect (at 4.7 0 90) (size 3 5) (drill oval 0.7 3) (layers B.Cu B.Mask))
+    (pad C thru_hole rect (at 0 -3 90) (size 5 3) (drill oval 3.5 0.7) (layers B.Cu B.Mask))
   )
 
   (module KCL:VMH-STA-DA5 (layer F.Cu) (tedit 5D7B07AA) (tstamp 5D28D365)
